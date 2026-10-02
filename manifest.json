@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Dino Pixel Bot",
+  "version": "1.0",
+  "description": "Chrome Dino pixel detector",
+  "author": "Azu Chukwuemeka",
+  "content_scripts": [
+    {
+      "matches": ["https://chromedino.com/*"],
+      "js": [
+        "DinoDetector.js",
+        "main.js"
+      ]
+    }
+  ]
+}
